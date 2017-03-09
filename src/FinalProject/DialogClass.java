@@ -37,16 +37,7 @@ public class DialogClass {
 		
 		JOptionPane.showMessageDialog(null, "Um... Interesting… Well, the class has already started on their first assignment. Here’s your book, there is your seat, and get to work. NOW!");
 		JOptionPane.showMessageDialog(null, "He has already sat in his seat by the time you are able to register anything. You take your book and sit in your seat. The person next to you decides to greet you.");
-		JOptionPane.showMessageDialog(null, "");
-		JOptionPane.showMessageDialog(null, "");
-		JOptionPane.showMessageDialog(null, "");
-		JOptionPane.showMessageDialog(null, "");
-		JOptionPane.showMessageDialog(null, "");
-		JOptionPane.showMessageDialog(null, "");
-		JOptionPane.showMessageDialog(null, "");
-		JOptionPane.showMessageDialog(null, "");
-		JOptionPane.showMessageDialog(null, "");
-		JOptionPane.showMessageDialog(null, "");
+		JOptionPane.showMessageDialog(null, "Person next to you: Hi! My name is Charles. I guess you are my partner for the next 9 weeks! From what I can tell, you don’t seem to know anyone from this class! Don’t worry, I know everyone here, just ask me, and I can tell you anything you would like about someone. ");
 		
 
 	}
