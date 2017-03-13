@@ -19,7 +19,6 @@ public class DialogClass {
 	{
 		prologue();
 		
-
 	}
 	public static void prologue()
 	{
