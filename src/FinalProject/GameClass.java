@@ -113,6 +113,7 @@ public class GameClass {
 			JOptionPane.showMessageDialog(null, "LIGHTS FLASH!!!! THUNDER SOUNDS!!! ");
 			JOptionPane.showMessageDialog(null, "You have chosen WRONG! " + guessKiller + "has been MURDERED!!! There is a note right by the body.");
 		}
+		}
 		public static void Names(String[] args) 
 		{
 			String[] names = new String[12];

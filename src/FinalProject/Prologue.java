@@ -5,21 +5,15 @@ package FinalProject;
 
 import javax.swing.JOptionPane;
 
-
 /**
- * @author RA316282
+ * @author TV111790
  *
  */
-public class DialogClass {
+public class Prologue {
 
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) 
-	{
-		prologue();
-		
-	}
 	public static void prologue()
 	{
 		JOptionPane.showMessageDialog(null, "You were recently just added into a class called Java Programming. "
@@ -57,5 +51,4 @@ public class DialogClass {
 		
 
 	}
-
 }
