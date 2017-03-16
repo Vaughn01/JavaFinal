@@ -1,8 +1,4 @@
-/**
- * 
- */
 package FinalProject;
-
 import javax.swing.JOptionPane;
 
 
@@ -12,9 +8,8 @@ import javax.swing.JOptionPane;
  */
 public class DialogClass {
 
-	/**
-	 * @param args
-	 */
+	public static String userName,userAge, userHomeLand, userFavFood, userPurpose;
+	
 	public static void main(String[] args) 
 	{
 		prologue();
@@ -43,7 +38,7 @@ public class DialogClass {
 				+ "\nTell me a little bit about yourself.");
 		JOptionPane.showMessageDialog(null, "You tell him your name, your age, where you are from, your favorite food, and why you joined this class. ");
 		
-		MadLibs.madLib();
+		madLib();
 		
 		JOptionPane.showMessageDialog(null, "Um... Interesting… Well, the class has already started on their first assignment. "
 				+ "\nHere’s your book, there is your seat, and get to work. NOW!");
@@ -55,7 +50,19 @@ public class DialogClass {
 				+ "\nFrom what I can tell, you don’t seem to know anyone from this class! "
 				+ "\nDon’t worry, I know everyone here, just ask me, and I can tell you anything you would like about someone. ");
 		
-
 	}
-
+	public static void madLib()
+	{
+	userName = JOptionPane.showInputDialog(null, "What is your name?");
+	userAge = JOptionPane.showInputDialog(null, "What is your age?");
+	userHomeLand = JOptionPane.showInputDialog(null, "Where are you from? ");
+	userFavFood = JOptionPane.showInputDialog(null, "What is your favorite food? ");
+	userPurpose = JOptionPane.showInputDialog(null, "Why did you join this class? ");
+	
+	JOptionPane.showMessageDialog(null, "Your name is " + userName + " , you are " + userAge + " years old, you are from " + 
+	userHomeLand + ", your favorite food is " + userFavFood + 
+	" and you decided to join my class because you said '" + userPurpose + ".");
+	}
 }
+
+
