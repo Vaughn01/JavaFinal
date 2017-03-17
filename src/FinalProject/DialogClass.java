@@ -10,11 +10,7 @@ public class DialogClass {
 
 	public static String userName,userAge, userHomeLand, userFavFood, userPurpose;
 	
-	public static void main(String[] args) 
-	{
-		prologue();
-		
-	}
+	
 	public static void prologue()
 	{
 		//This is the beginning of the story. This well get the user well informed on what has happened.

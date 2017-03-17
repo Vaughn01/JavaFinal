@@ -18,6 +18,7 @@ public class MainGameClass {
 		LoopingClass.LoopingClass();
 		//These are the ending results.
 		Decision.Decision(); 
+		//This part of the program asks the user if they want to play again. Otherwise the game ends.
 	}
 
 }

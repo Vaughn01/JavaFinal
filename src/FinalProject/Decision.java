@@ -58,6 +58,7 @@ import java.util.ArrayList;
        		 JOptionPane.showMessageDialog(null, "It's too late..");
        		 JOptionPane.showMessageDialog(null, "you're next.");
        		JOptionPane.showMessageDialog(null, "GAME OVER!!!");
+       		
         	}
         	
         	/*for (int d=0; d<array.length;d++){
